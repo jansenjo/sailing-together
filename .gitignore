@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Database (lokaal)
+sailing.db
+*.db
+
+# Uploads (user content)
+public/uploads/
+
+# Build output
+dist/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
